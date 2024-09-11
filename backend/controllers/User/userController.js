@@ -2,7 +2,7 @@ import UserModel from "../../models/User/user.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
  
-
+//kuch commment
 export default class UserController{
     register=async(req,res)=>{
     const {name,email,password}=req.body;
